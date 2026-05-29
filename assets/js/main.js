@@ -6,7 +6,7 @@ const articles = [
     tag: "Comparisons",
     category: "comparison",
     excerpt: "We pit the three leading AI assistants against each other across real-world tasks — coding, writing, analysis, and more. See who comes out on top.",
-    url: "/articles/chatgpt-vs-claude-vs-gemini-2026.html",
+    url: "articles/chatgpt-vs-claude-vs-gemini-2026.html",
     date: "May 29, 2026",
     readTime: "8 min read"
   },
@@ -15,7 +15,7 @@ const articles = [
     tag: "Make Money",
     category: "money",
     excerpt: "From AI-powered freelancing to automated content creation — discover seven real ways people are generating income with AI tools right now.",
-    url: "/articles/make-money-with-ai-2026.html",
+    url: "articles/make-money-with-ai-2026.html",
     date: "May 28, 2026",
     readTime: "10 min read"
   },
@@ -24,7 +24,7 @@ const articles = [
     tag: "Tool Reviews",
     category: "reviews",
     excerpt: "After testing 50+ AI tools, here are the top 10 that actually deliver results for blog posts, videos, social media, and marketing content.",
-    url: "/articles/best-ai-content-tools-2026.html",
+    url: "articles/best-ai-content-tools-2026.html",
     date: "May 27, 2026",
     readTime: "7 min read"
   },
@@ -33,7 +33,7 @@ const articles = [
     tag: "Tutorials",
     category: "tutorial",
     excerpt: "A complete walkthrough of Midjourney — from your first prompt to advanced techniques like style references, parameter tuning, and consistent characters.",
-    url: "/articles/midjourney-beginner-tutorial.html",
+    url: "articles/midjourney-beginner-tutorial.html",
     date: "May 26, 2026",
     readTime: "12 min read"
   },
@@ -42,7 +42,7 @@ const articles = [
     tag: "Comparisons",
     category: "comparison",
     excerpt: "We benchmarked the latest Claude 4 and GPT-5 on real coding challenges. Here's the data on accuracy, speed, and handling complex projects.",
-    url: "/articles/claude-4-vs-gpt-5-coding-benchmarks.html",
+    url: "articles/claude-4-vs-gpt-5-coding-benchmarks.html",
     date: "May 25, 2026",
     readTime: "9 min read"
   },
@@ -51,7 +51,7 @@ const articles = [
     tag: "Tutorials",
     category: "tutorial",
     excerpt: "Master the art of prompt engineering — from basic techniques to advanced frameworks like chain-of-thought, few-shot, and structured outputs.",
-    url: "/articles/ai-prompt-engineering-guide-2026.html",
+    url: "articles/ai-prompt-engineering-guide-2026.html",
     date: "May 24, 2026",
     readTime: "15 min read"
   }
