@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="/ai-tutorials-pro/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midjourney Tutorial: From Beginner to Pro in 30 Minutes (2026) | AI Tutorials Pro</title>
+  <meta name="description" content="Complete Midjourney tutorial for beginners. Learn prompting, style references, parameters, consistent characters, and advanced techniques — all in 30 minutes.">
+  <link rel="canonical" href="https://renerhu.github.io/ai-tutorials-pro/articles/midjourney-beginner-tutorial.html">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta property="og:title" content="Midjourney Tutorial: From Beginner to Pro in 30 Minutes">
+  <meta property="og:description" content="Complete Midjourney guide — prompting, style references, parameters, and advanced techniques.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div class="glow-spot"></div>
+  <header>
+    <div class="container header-inner">
+      <a href="." class="logo">AI TUTORIALS PRO</a>
+      <ul class="nav-links">
+        <li><a href=".">Home</a></li>
+        <li><a href="articles/">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="article-page">
+    <div class="container">
+      <article>
+        <div class="article-header">
+          <h1>Midjourney Tutorial: From Beginner to Pro in 30 Minutes</h1>
+          <div class="meta-top">
+            <span>📅 May 29, 2026</span> • <span>📖 12 min read</span> • <span>🏷️ Tutorials</span>
+          </div>
+        </div>
+
+        <p>Midjourney has become the go-to AI image generator for designers, marketers, and creators. But there's a difference between typing a random prompt and actually <em>controlling</em> what Midjourney produces. This guide takes you from zero to confident in one sitting.</p>
+
+        <div class="toc">
+          <h3>In This Guide</h3>
+          <ul>
+            <li><a href="#basics">Getting Started</a></li>
+            <li><a href="#prompting">The Art of Prompting</a></li>
+            <li><a href="#parameters">Key Parameters Explained</a></li>
+            <li><a href="#styles">Style References (--sref)</a></li>
+            <li><a href="#characters">Consistent Characters</a></li>
+            <li><a href="#advanced">Advanced Techniques</a></li>
+            <li><a href="#workflow">Real-World Workflow</a></li>
+            <li><a href="#tips">Pro Tips</a></li>
+          </ul>
+        </div>
+
+        <h2 id="basics">1. Getting Started with Midjourney</h2>
+        <p>Midjourney (currently v6.2 as of mid-2026) operates entirely through Discord. Here's what you need:</p>
+        <ul>
+          <li><strong>Discord account</strong> — free, create one at discord.com</li>
+          <li><strong>Midjourney subscription</strong> — starts at $10/mo (Basic) for ~200 generations/month</li>
+          <li><strong>Join the Midjourney Discord</strong> — discord.gg/midjourney</li>
+        </ul>
+        <p>Once joined, find any <code>#newbies-*</code> channel or use the Midjourney bot in your own server. Type <code>/imagine</code> followed by your prompt.</p>
+
+        <blockquote>💡 <strong>Pro tip:</strong> Create your own Discord server and invite the Midjourney bot. This keeps your generations organized and searchable.</blockquote>
+
+        <p><strong>The four buttons under every generation:</strong></p>
+        <ul>
+          <li><strong>U1-U4</strong> — Upscale one of the four images (higher resolution + details)</li>
+          <li><strong>V1-V4</strong> — Create variations of one image</li>
+          <li><strong>🔄 (reroll)</strong> — Generate new interpretations of the same prompt</li>
+          <li><strong>Web</strong> — Open in Midjourney web gallery</li>
+        </ul>
+
+        <h2 id="prompting">2. The Art of Prompting</h2>
+        <p>A great Midjourney prompt has three parts:</p>
+        <table>
+          <tr><th>Component</th><th>Example</th><th>Purpose</th></tr>
+          <tr><td>Subject</td><td>a young fox wearing a steampunk top hat</td><td>What you want to see</td></tr>
+          <tr><td>Environment</td><td>in a Victorian library, warm lighting</td><td>Setting and atmosphere</td></tr>
+          <tr><td>Style + Technical</td><td>photorealistic, depth of field, 8k --ar 16:9 --v 6.2</td><td>Look and format</td></tr>
+        </table>
+
+        <p><strong>Golden formula:</strong> <code>[Subject] + [Action/Details] + [Environment] + [Lighting] + [Style] + [Technical Parameters]</code></p>
+
+        <p>Examples that actually work:</p>
+        <ul>
+          <li>❌ <em>"beautiful mountain"</em> → too vague, unpredictable results</li>
+          <li>✅ <code>a majestic mountain peak at sunrise, layers of mist in the valley, alpine flowers in foreground, dramatic golden hour lighting, National Geographic photography, hyperdetailed --ar 16:9 --v 6.2</code></li>
+        </ul>
+
+        <h2 id="parameters">3. Key Parameters (Your Control Panel)</h2>
+        <p>Parameters are modifiers added with <code>--</code> at the end of your prompt.</p>
+        <table>
+          <tr><th>Parameter</th><th>What It Does</th><th>Example</th></tr>
+          <tr><td><code>--ar</code></td><td>Aspect ratio (width:height)</td><td><code>--ar 16:9</code> for widescreen, <code>--ar 9:16</code> for portrait</td></tr>
+          <tr><td><code>--s</code></td><td>Stylization (0-1000, default 100)</td><td><code>--s 50</code> more literal, <code>--s 600</code> more artistic</td></tr>
+          <tr><td><code>--c</code></td><td>Chaos (0-100) — how wild the variations are</td><td><code>--c 80</code> for unexpected surprises</td></tr>
+          <tr><td><code>--no</code></td><td>Negative — things to exclude</td><td><code>--no text, watermark, blur</code></td></tr>
+          <tr><td><code>--iw</code></td><td>Image weight (0.5-2.0) for image prompts</td><td><code>--iw 1.5</code> when using a reference image</td></tr>
+          <tr><td><code>--v</code></td><td>Version (default 6.2)</td><td><code>--v 6.2</code></td></tr>
+        </table>
+
+        <blockquote>🧪 <strong>Experiment rule:</strong> Change one parameter at a time. Change two and you won't know what caused the difference.</blockquote>
+
+        <h2 id="styles">4. Style References (--sref) — Your Cheat Code</h2>
+        <p>Style references are the single most powerful feature in Midjourney v6+. You provide an image that represents the <em>style</em> you want, and Midjourney applies it to your subject.</p>
+        <p><strong>How to use:</strong> Upload a style image to Discord, copy its URL, and add <code>--sref [URL]</code> to your prompt.</p>
+        <p><strong>Style weight:</strong> Control how strongly the style applies with <code>--sw 0-1000</code> (default 100).</p>
+        <p><strong>Multi-style mixing:</strong> Use multiple <code>--sref</code> URLs separated by spaces.</p>
+
+        <ul>
+          <li><code>--sref [URL]</code> — Apply style from reference</li>
+          <li><code>--sw 200</code> — Stronger style influence</li>
+          <li><code>--sref [url1] [url2]</code> — Blend multiple styles</li>
+        </ul>
+
+        <p><strong>Where to find style references:</strong> Midjourney's community showcase (midjourney.com/showcase), dedicated style reference channels on Discord, or simply images you like on Pinterest.</p>
+
+        <h2 id="characters">5. Consistent Characters with --cref</h2>
+        <p>One of the biggest asks in AI image generation — "how do I get the same character in different scenes?" — is now solved with <code>--cref</code> (character reference).</p>
+        <p><strong>How it works:</strong> Provide a reference image of your character, and Midjourney will maintain their appearance across different prompts.</p>
+        <ul>
+          <li><code>/imagine a knight in armor --cref [character-image-url]</code></li>
+          <li><code>/imagine the same character relaxing on a beach --cref [same-url]</code></li>
+          <li><code>--cw 0-100</code> controls character weight (100 = strongest match)</li>
+        </ul>
+        <p><strong>Best practices for character consistency:</strong></p>
+        <ul>
+          <li>Use a front-facing, well-lit reference image</li>
+          <li>Avoid busy backgrounds in the reference</li>
+          <li>Keep <code>--cw</code> around 80-100 for faces, lower for poses</li>
+          <li>Use the same <code>--sref</code> for visual consistency across scenes</li>
+        </ul>
+
+        <h2 id="advanced">6. Advanced Techniques</h2>
+
+        <h3>Multi-Prompts with ::</h3>
+        <p>Use <code>::</code> to assign different weights to parts of your prompt:</p>
+        <p><code>a futuristic city::2 cyberpunk style::1.5 rain and neon lights::1 --ar 16:9</code></p>
+        <p>This tells Midjourney to prioritize "futuristic city" twice as much as "cyberpunk style."</p>
+
+        <h3>Image Prompting</h3>
+        <p>Start with an image instead of text. Upload an image, use its URL, and add text to guide it:</p>
+        <p><code>[image-url] a watercolor painting of this scene, soft colors --iw 1.5</code></p>
+
+        <h3>Remix Mode</h3>
+        <p>Enable <code>/prefer remix</code> to change prompts after a generation while keeping the composition. Perfect for iterating on a layout you like.</p>
+
+        <h2 id="workflow">7. A Practical Workflow</h2>
+        <p>Here's how professionals use Midjourney in production:</p>
+        <ol>
+          <li><strong>Concept exploration</strong> — Use broad prompts with high <code>--c 60-80</code> for diverse ideas</li>
+          <li><strong>Pick winners</strong> — Select promising compositions, upscale them</li>
+          <li><strong>Variation refinement</strong> — Vary the upscaled image, lower chaos to <code>--c 10-20</code></li>
+          <li><strong>Style lock-in</strong> — Apply <code>--sref</code> from the best result to maintain consistency</li>
+          <li><strong>Final upscale</strong> — Use <code>/upscale 2x</code> or external tools like Magnific or Topaz Gigapixel</li>
+        </ol>
+
+        <h2 id="tips">8. Pro Tips from Heavy Users</h2>
+        <ul>
+          <li><strong>Keep a prompt library.</strong> Save winning prompts in a Notion doc or spreadsheet. You'll reuse and remix them.</li>
+          <li><strong>Negative space matters.</strong> Add <code>--no text</code> as a default — Midjourney loves writing gibberish.</li>
+          <li><strong>Seed for reproducibility.</strong> Find the seed of an image you like (envelope emoji reaction) and use <code>--seed [number]</code> to recreate similar results.</li>
+          <li><strong>Speed vs quality.</strong> Fast mode is instant but lower quality. Relax mode is slower (wait in queue) but better results and unlimited for Pro subscribers.</li>
+          <li><strong>Don't fight the aspect ratio.</strong> If your subject looks distorted, the <code>--ar</code> might be too extreme. Stick to <code>--ar 4:3</code> or <code>--ar 3:2</code> for reliable results.</li>
+          <li><strong>Use Midjourney's web editor.</strong> The web interface at midjourney.com has inpainting, outpainting, and more advanced tools than Discord.</li>
+        </ul>
+
+        <h2>What's Next?</h2>
+        <p>This guide covers 90% of what you'll ever need with Midjourney. The remaining 10% comes from practice — generating daily, experimenting with parameters, and building your visual intuition.</p>
+        <p>For more hands-on tutorials, check out our <a href="articles/best-ai-content-tools-2026.html">Best AI Tools for Content Creation</a> guide, or our <a href="articles/ai-prompt-engineering-guide-2026.html">complete Prompt Engineering guide</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="articles/">Articles</a>
+        <a href="about.html">About</a>
+      </div>
+      <p>© 2026 AI Tutorials Pro. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
