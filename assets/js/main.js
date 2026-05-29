@@ -32,28 +32,28 @@ const articles = [
     title: "Midjourney Tutorial: From Beginner to Pro in 30 Minutes",
     tag: "Tutorials",
     category: "tutorial",
-    excerpt: "A complete walkthrough of Midjourney — from your first prompt to advanced techniques like style references, parameter tuning, and consistent characters.",
-    url: "articles/midjourney-beginner-tutorial.html",
-    date: "May 26, 2026",
-    readTime: "12 min read"
+    excerpt: "Coming soon — a complete walkthrough of Midjourney from your first prompt to advanced techniques.",
+    url: "#",
+    date: "Coming Soon",
+    readTime: ""
   },
   {
     title: "Claude 4 vs GPT-5: The Ultimate Coding Benchmarks",
     tag: "Comparisons",
     category: "comparison",
-    excerpt: "We benchmarked the latest Claude 4 and GPT-5 on real coding challenges. Here's the data on accuracy, speed, and handling complex projects.",
-    url: "articles/claude-4-vs-gpt-5-coding-benchmarks.html",
-    date: "May 25, 2026",
-    readTime: "9 min read"
+    excerpt: "Coming soon — we benchmark the latest models on real coding challenges with accuracy and speed data.",
+    url: "#",
+    date: "Coming Soon",
+    readTime: ""
   },
   {
     title: "AI Prompt Engineering: The Complete Guide for 2026",
     tag: "Tutorials",
     category: "tutorial",
-    excerpt: "Master the art of prompt engineering — from basic techniques to advanced frameworks like chain-of-thought, few-shot, and structured outputs.",
-    url: "articles/ai-prompt-engineering-guide-2026.html",
-    date: "May 24, 2026",
-    readTime: "15 min read"
+    excerpt: "Coming soon — master prompt engineering from basics to advanced frameworks.",
+    url: "#",
+    date: "Coming Soon",
+    readTime: ""
   }
 ];
 
