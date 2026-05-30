@@ -54,6 +54,15 @@ const articles = [
     url: "articles/ai-prompt-engineering-guide-2026.html",
     date: "May 29, 2026",
     readTime: "15 min read"
+  },
+  {
+    title: "Best AI Video Generators in 2026: 8 Tools Compared",
+    tag: "Comparisons",
+    category: "comparison",
+    excerpt: "Sora 2 vs Veo 3 vs Runway vs Kling vs Pika — we tested every major AI video generator. Complete comparison with pricing, quality, and best-for verdicts.",
+    url: "articles/best-ai-video-generators-2026.html",
+    date: "May 30, 2026",
+    readTime: "11 min read"
   }
 ];
 
